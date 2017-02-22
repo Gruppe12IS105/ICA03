@@ -20,4 +20,11 @@ func IterateOverASCIIStringLiteral() {
 }
 
 // Kode for Oppgave 2b
-func GreetingExtendedASCII() {}
+const Salut = "\x53\x61\x6c\x75\x74\x2c\x20\xe7\x61\x20\x76\x61\x20\xb0\x2b\x29"+
+"\x20\x80\x35\x35"
+
+func GreetingExtendedASCII() {
+  for i := 0; i < len(Salut); i++ {
+    fmt.Printf("%c", Salut[i])
+  }
+}
