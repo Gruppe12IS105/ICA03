@@ -8,7 +8,7 @@ import (
 func TestGreetingASCII(t *testing.T) {
 	b := GreetingASCII()
 	if isASCII(b) == false {
-		t.Errorf("%c Utenfor ASCII-tabellen", hello)
+		t.Errorf("FAIL")
 	}
 }
 

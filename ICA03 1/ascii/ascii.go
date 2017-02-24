@@ -33,13 +33,12 @@ func IterateOverASCIIStringLiteral(sl string) {
 // Funksjonen greetingASCII() returnerer en variabel av typen string,
 // som inneholder kun ASCII tegn (ikke utvidet ASCII).
 // Gjelder oppgave 1b
-func GreetingASCII() {
-	/*t1 := []byte("\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29")
+func GreetingASCII() string {
+	t1 := []byte("\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29")
 	for i := 0; i < len(t1); i++ {
 		fmt.Printf("%c", t1[i])
 	}
 	t2 := "\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29"
-	return t2*/
-	fmt.Println(hello, "\n")
+	return t2
 
 }
