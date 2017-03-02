@@ -1,2 +1,7 @@
-# is105-ica03
-Repository for IS-105 experiments with encoding of signs and symbols.
+# IS105-ICA03
+Det er dette dokumentet vi skal skrive besvarelsen i. Først kan alle de som skal være med på besvarelsen skrive i google-docs, også legger vi det inn her når vi føler oss ferdige.
+
+I md-filer (markdown) kan vi legge inn kode med syntax-highlighting, også får vi hele besvarelsen i Github i stedet for en pdf med link til Repository-en.
+
+Link til guide om hvordan man skriver markdown-language:
+[Markdown](https://guides.github.com/features/mastering-markdown/)
