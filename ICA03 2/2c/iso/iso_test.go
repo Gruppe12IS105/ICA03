@@ -11,7 +11,7 @@ func TestGreetingExtendedASCII(t *testing.T) {
 
 func isEASCII(q2 string) bool {
 	for _, i := range q2 {
-		if i < 128 {
+		if i < 0x80 || i > 0xff {
 			return false
 		}
 	}
