@@ -10,6 +10,7 @@ import (
 func main() {
 	//Skriv jp eller is etter 'go run unicode_main.go'
 	language := os.Args[1]
-	trans := unicode.Translate(language)
+	expression := "nord og sør"
+	trans := unicode.Translate(expression, language)
 	fmt.Printf("%s", trans)
 }
