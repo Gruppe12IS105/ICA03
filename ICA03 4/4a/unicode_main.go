@@ -1,14 +1,15 @@
 package main
 
 import (
-  "./unicode"
-  "fmt"
+	"fmt"
+	"os"
+
+	"./unicode"
 )
 
 func main() {
-  expression := "nord og sør"
-  language := "jp"
-  //language := "is"
-  trans := unicode.Translate(expression, language)
-  fmt.Printf("%s", trans)
+	//Skriv jp eller is etter 'go run unicode_main.go'
+	language := os.Args[1]
+	trans := unicode.Translate(language)
+	fmt.Printf("%s", trans)
 }

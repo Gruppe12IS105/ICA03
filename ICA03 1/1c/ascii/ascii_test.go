@@ -20,8 +20,3 @@ func isASCII(t2 string) bool {
 	}
 	return true
 }
-
-//fmt.Println("FAIL:", hello, " er ikke innenfor ASCII")
-
-//if rune := GreetingASCII(); rune != v.expected {
-//t.Errorf(" %X, return %v, expected %d", ascii, rune, v.expected)

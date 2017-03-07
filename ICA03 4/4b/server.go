@@ -8,6 +8,7 @@ package main
 
 import (
 	"net/http"
+	"time"
 )
 
 func main() {
@@ -16,6 +17,7 @@ func main() {
 }
 
 func foo(w http.ResponseWriter, r *http.Request) {
+	t := time.Now().Format(time.RFC850)
 	// Her kan man bl. a. skrive data som skal sendes til nettleser
 	// Neste linje kan brukes for å endre koding av sekvensen som sendes til nettleser
 	// Standardinstilling er UTF-8
@@ -25,5 +27,6 @@ func foo(w http.ResponseWriter, r *http.Request) {
 	// http://localhost:3000 i sin nettleser
 	w.Write([]byte("<font color=\"green\">Hvordan g\xe5r det, <b>\u16a6</b> ?</font><br/>"))
 	w.Write([]byte("\u16a6 - Thurs<br/>"))
+	w.Write([]byte(t))
 
 }
