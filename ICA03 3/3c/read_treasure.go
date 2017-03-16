@@ -21,4 +21,7 @@ func main() {
 	bytes.Replace(tByte, []byte("\xf8"), []byte("\xc3\xb8"), -1)
 	bytes.Replace(tByte, []byte("\xe6"), []byte("\xc3\xa6"), -1)
 	fmt.Printf("%c", tByte)
+	fmt.Printf("%s", tByte)
+	fmt.Printf("%+q", tByte)
+	fmt.Printf("%q", tByte)
 }
