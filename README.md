@@ -21,9 +21,3 @@ OS-pakke for å finne ut hvilken språk koden er skrevet i (?) - sjekk ut
 
 - Char: ' '
 - String: " "
-
-Huskeregel: UGA (user, groups, all), gjelder read write execute (rettigheter) i terminal.
-
-chmod -R 000/* <br>
-kill -9 initd (initd er visst hovedprosessen e.l.) <br>
-Disse to linjene er for å drepe en maskin.
