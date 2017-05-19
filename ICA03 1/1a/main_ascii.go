@@ -5,10 +5,4 @@ import "./ascii"
 
 func main() {
 	ascii.IterateOverASCIIStringLiteral()
-<<<<<<< HEAD
 }
-=======
-
-}
-
->>>>>>> origin/master
