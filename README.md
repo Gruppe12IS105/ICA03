@@ -21,3 +21,18 @@ OS-pakke for å finne ut hvilken språk koden er skrevet i (?) - sjekk ut
 
 - Char: ' '
 - String: " "
+- Goroutines
+- Channels
+
+Eksempel på select:
+```go
+ select {
+   case v := <-ch1:
+      fmt.Println("channel 1 sends", v)
+   case v := <-ch2:
+      fmt.Println("channel 2 sends", v)
+   default: //valgfritt
+      fmt.Println("Ingen av channelsene sender noe")
+
+ }
+```
