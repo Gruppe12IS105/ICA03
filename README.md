@@ -1,6 +1,7 @@
 # IS-105 ICA03
 
-**Det er dette dokumentet som skal være den endelige besvarelsen**. Først kan alle de som skal være med på besvarelsen skrive i google-docs, også legger vi det inn her når vi føler oss ferdige.
+**Her kommer litt forklaring av ICA03**
+Videre dokumentasjon vil bli lagt under et separat PDF.
 
 I md-filer (markdown) kan vi legge inn kode med syntax-highlighting, også får vi hele besvarelsen i Github i stedet for en pdf med link til Repository-en.
 
