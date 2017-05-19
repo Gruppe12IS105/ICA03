@@ -9,12 +9,9 @@ const ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f"
 	`@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_` +
 	"`abcdefghijklmnopqrstuvwxyz{|}~\x7f"
 
-func GreetingASCII() string {
+func GreetingASCII() {
 	t1 := []byte("\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29")
 	for i := 0; i < len(t1); i++ {
 		fmt.Printf("%c", t1[i])
 	}
-	t2 := "\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29"
-	return t2
-
 }

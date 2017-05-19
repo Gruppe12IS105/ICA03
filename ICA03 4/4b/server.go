@@ -6,14 +6,10 @@
 //
 package time
 
-<<<<<<< Updated upstream:ICA03 4/4b/server.go
 import (
 	"net/http"
 	"time"
 )
-=======
-import "net/http"
->>>>>>> Stashed changes:server.go
 
 func main() {
 	http.HandleFunc("/", foo)
@@ -29,12 +25,9 @@ func foo(w http.ResponseWriter, r *http.Request) {
 
 	// Her skriver man data som er respons til brukeren som har skrevet
 	// http://localhost:3000 i sin nettleser
-<<<<<<< Updated upstream:ICA03 4/4b/server.go
 	w.Write([]byte("<font color=\"green\">Hvordan g\xe5r det, <b>\u16a6</b> ?</font><br/>"))
 	w.Write([]byte("\u16a6 - Thurs<br/>"))
 	w.Write([]byte(t))
-=======
-	w.Header().Set("Time", "Wednesday March _2 13:44:55 2017/html;charset=ISO-8859-1")
->>>>>>> Stashed changes:server.go
 
+	w.Header().Set("Time", "Wednesday March _2 13:44:55 2017/html;charset=ISO-8859-1")
 }
